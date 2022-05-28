@@ -3,7 +3,7 @@ const ProxyAgent = require('proxy-agent')
 const { Server } = require('socket.io')
 const { parse } = require('querystring')
 
-const proxyString = 'https://cz-71-135-1.fri-gate.biz:443'
+const proxyString = ''
 
 const agent = new ProxyAgent(proxyString)
 const server = new Server({

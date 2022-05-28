@@ -40,6 +40,20 @@
 > npm run dev
 ```
 
+## Установка прокси на сервер
+
+В файле `/server/main.js` нужно отредактировать следующую строчку
+
+```js
+const proxyString = "";
+```
+
+и привести её к виду
+
+```js
+const proxyString = "https://username:password@host:port";
+```
+
 ## Скриншоты
 
 > ![](/screens/screen1.png)
